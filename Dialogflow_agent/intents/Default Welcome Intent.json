@@ -1,0 +1,54 @@
+{
+  "id": "b1ec575b-3e4f-42e1-a001-8f5416c0c931",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Bookhotel",
+      "affectedContexts": [
+        {
+          "name": "Welcome-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "line",
+          "lang": "en",
+          "condition": "",
+          "speech": "Have you designed it already?\n\nBelow is an introduction to our production process.\n\n \n\nP icture □ -1 P icture □ -2\n\n \n\nIf you have already designed it, you can also pass the picture directly\nand tell us the material you want and the number of pieces.\n\nPlease ask customer service directly to quote you 呦^^\n\n \n\nLarge image files, original image files, to avoid compression, please pass to the lower mailbox\n\nKing.protee@gmail.com\n\nThank you"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "hi.Welcome to our hotel. You can enjoy our Hotel services here.Say book a room if you want to book room.",
+            "hello! Welcome ! Here we provide you the details about Hotel services.Say book hotel if  want to book room.",
+            "You are welcome to our hotel. Do you want to book room.",
+            "We warmly welcome you to our hotel.Do you want to book room."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

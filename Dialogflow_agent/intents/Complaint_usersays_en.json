@@ -1,0 +1,179 @@
+[
+  {
+    "id": "90480388-5fef-4925-a36d-57c9408b42e5",
+    "data": [
+      {
+        "text": "subject is ",
+        "userDefined": false
+      },
+      {
+        "text": "security",
+        "alias": "subject",
+        "meta": "@subject",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e3fdbb5c-b891-4007-b5df-18c942514021",
+    "data": [
+      {
+        "text": "the subject is ",
+        "userDefined": false
+      },
+      {
+        "text": "staff",
+        "alias": "subject",
+        "meta": "@subject",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc7ef745-d514-45fe-8727-1aef596bdb71",
+    "data": [
+      {
+        "text": "detail",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cab28196-7e3f-4b4e-9c1d-df957aea5ff4",
+    "data": [
+      {
+        "text": "i want to report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "649b279c-6947-4edb-bceb-5034f439ece5",
+    "data": [
+      {
+        "text": "feedback",
+        "alias": "Complaintype",
+        "meta": "@Complaintype",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "899f7f60-922c-4e82-ac3d-18805f18b7cf",
+    "data": [
+      {
+        "text": "suggestion",
+        "alias": "Complaintype",
+        "meta": "@Complaintype",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "28b24ccf-2f91-4797-b7cd-b2897a3e8d75",
+    "data": [
+      {
+        "text": "complain",
+        "alias": "Complaintype",
+        "meta": "@Complaintype",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "565453cd-1bd2-4f15-9993-d17532a8f14f",
+    "data": [
+      {
+        "text": "I want to give ",
+        "userDefined": false
+      },
+      {
+        "text": "feedback",
+        "alias": "Complaintype",
+        "meta": "@Complaintype",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aa14deb8-8e59-4c08-877b-9daab02b488e",
+    "data": [
+      {
+        "text": "I want to report something",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "23643dc4-86fb-49ee-b0af-0f78bf635954",
+    "data": [
+      {
+        "text": "I want to give ",
+        "userDefined": false
+      },
+      {
+        "text": "suggestion",
+        "alias": "Complaintype",
+        "meta": "@Complaintype",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7d6037c-c828-4794-b1c1-ddb81d28a60e",
+    "data": [
+      {
+        "text": "I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "complaint",
+        "alias": "Complaintype",
+        "meta": "@Complaintype",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

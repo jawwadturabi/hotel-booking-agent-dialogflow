@@ -1,0 +1,80 @@
+{
+  "id": "cad7afac-b567-4e16-a5e7-7bd73da4b604",
+  "name": "Complaint",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4f7e2e7a-18c6-46e5-83e6-2f337580e23c",
+          "required": true,
+          "dataType": "@Complaintype",
+          "name": "Complaintype",
+          "value": "$Complaintype",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you want to give suggestions or complaint"
+            },
+            {
+              "lang": "en",
+              "value": "Kindly specify that you want to give complaint or suggestion"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7506c4f3-7038-4232-ab10-0a6248ce6eab",
+          "required": true,
+          "dataType": "@subject",
+          "name": "subject",
+          "value": "$subject",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please give the subject to your $Complaintype"
+            },
+            {
+              "lang": "en",
+              "value": "Kindly tell the subject of your $Complaintype"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Thanks for using our service. we\u0027ll get back to you  soon. Thanks for using our service.",
+            "Your $Complaintype is proceeded to concern department. We will contact you soon. Good bye",
+            "We\u0027ve submit your $Complaintype .We\u0027ll forward your request to $subject department. Thanks for using our customer support !"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

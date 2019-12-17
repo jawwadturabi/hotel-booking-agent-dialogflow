@@ -1,0 +1,177 @@
+{
+  "id": "2fb90ccc-3111-4970-82fb-3bfa53ee6343",
+  "name": "Booking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Booking",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4b800e71-2624-43f9-a7a9-3cc320679c88",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you please tell me your name"
+            },
+            {
+              "lang": "en",
+              "value": "kindly tell your name"
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me your good name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1f704651-115f-43f4-9457-b42d3b25caac",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "would you like to share your email"
+            },
+            {
+              "lang": "en",
+              "value": "please tell me your email"
+            },
+            {
+              "lang": "en",
+              "value": "your email please"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b1460475-5598-44f9-bad1-35db954a6cfc",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly give me your contact number"
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me your contact number"
+            },
+            {
+              "lang": "en",
+              "value": "tell me your phone number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7bc3ece4-70fc-4484-b142-86aec814e123",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "person",
+          "value": "$person",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For how many persons you want to book room"
+            },
+            {
+              "lang": "en",
+              "value": "kindly tell me number of persons"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "201306b5-3abf-4b3e-acf7-8e56795a4340",
+          "required": true,
+          "dataType": "@Category",
+          "name": "type",
+          "value": "$type",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me which type of class you want"
+            },
+            {
+              "lang": "en",
+              "value": "In which category do you want to book room"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "line",
+          "lang": "en",
+          "condition": "",
+          "title": "new",
+          "replies": [
+            "fine"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Your is request is Forwarded. Thanks for using our service.",
+            "Your request is proceeded to concern department. Thanks for choosing our Hotel."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    },
+    {
+      "name": "SKYPE_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

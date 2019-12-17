@@ -1,0 +1,18 @@
+[
+  {
+    "value": "complain",
+    "synonyms": [
+      "complain",
+      "complaint"
+    ]
+  },
+  {
+    "value": "suggestion",
+    "synonyms": [
+      "advice",
+      "advise",
+      "feedback",
+      "suggestion"
+    ]
+  }
+]

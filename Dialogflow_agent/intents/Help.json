@@ -1,0 +1,68 @@
+{
+  "id": "ee0ad2c2-9db2-4d29-a236-11573d4a5cfe",
+  "name": "Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "line",
+          "lang": "en",
+          "condition": "",
+          "speech": "若欲申請套量樣衣\n還請提供收貨人資訊^^\n\n1.收件人姓名\n2.電話\n3.學校、班級\n4.收貨地址(寄學校則提供學校地址，超商取貨須提供門市資料)\n5.寄回方式(郵寄或7-11)\n6.材質\n7.預計使用日期與歸還日期（由於套量有限，需在送達隔日歸還）\n8.備註\n\n\n提醒您，套量樣衣只是參考用，由於每批衣服依製作批次不同還是會有些微誤差。\n以尺吋表為基準，成品可能有正負2~3公分之誤差。\n\n若求精準，還請務必對照尺寸資料表。\n\n\n尺寸表可詢問客服或是於官網中對應款式的介面找到\nhttps://kingprotee.weebly.com/t24676.html\n製作模板以尺寸表為準。\n\n\n請務必注意！！\n不要挑選完全合身的尺寸，避免可能造成成品穿不下的窘境。\n\n-------segment-----\n\n請務必先確認目前的設計、模擬圖、價格預算等都OK之後再申請套量服務呦！\n\n訂製件數較少時，申請實體套量可能產生套量手續費以及寄回時的運費\n請多使用免費的自助測量服務→輸入\"測量\"\n\nP.S.\n未滿30件 套量將收取100之套量手續費\n未滿15件 套量將收取150之套量手續費\n\n套量歸還時，可於任意一間7-11進行歸還。\n歸還時將產生60元之運費。(若滿50件、或是有2個以上單位共用此套量，此費用將由我們吸收)\n\n詳情請輸入→歸還\n自助測量尺寸 精準又方便呦→測量\n\n如需材質樣衣或有其他任何需求或問題，都歡迎留言詢問客服呦！"
+        },
+        {
+          "type": 3,
+          "platform": "line",
+          "lang": "en",
+          "condition": "",
+          "imageUrl": "https://i.imgur.com/2UnaN8A.jpg"
+        },
+        {
+          "type": 3,
+          "platform": "line",
+          "lang": "en",
+          "condition": "",
+          "imageUrl": "https://i.imgur.com/PJQpVjp.jpg"
+        },
+        {
+          "type": 2,
+          "platform": "line",
+          "lang": "en",
+          "condition": "",
+          "title": "",
+          "replies": [
+            "lahdakj",
+            "fkjsadfkjd",
+            "kfjbsalkdjbf",
+            "kjfbksf"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Kindly mention what kind of help do you want?",
+            "Please specify which sort of help do you required?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

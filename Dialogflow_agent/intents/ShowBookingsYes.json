@@ -1,0 +1,36 @@
+{
+  "id": "f9bff275-214c-4a39-8a33-a8980e60dffa",
+  "parentId": "337892a1-9b62-4195-9edb-de070dac02ce",
+  "rootParentId": "337892a1-9b62-4195-9edb-de070dac02ce",
+  "name": "ShowBookingsYes",
+  "auto": true,
+  "contexts": [
+    "ShowBookings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ShowBookingsYes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Something went wrong"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

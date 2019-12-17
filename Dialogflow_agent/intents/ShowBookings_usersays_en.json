@@ -1,0 +1,26 @@
+[
+  {
+    "id": "70333bd3-05f3-4aec-8f93-b2b2e89a9f91",
+    "data": [
+      {
+        "text": "all bookings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a493300-7bf4-4d13-b35d-772dab8e7711",
+    "data": [
+      {
+        "text": "show me my bookings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

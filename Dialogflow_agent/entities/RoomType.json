@@ -1,0 +1,9 @@
+{
+  "id": "64650aa1-252a-4fee-8698-6a9e8d2bbbe7",
+  "name": "RoomType",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

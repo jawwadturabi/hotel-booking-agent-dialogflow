@@ -1,0 +1,162 @@
+[
+  {
+    "id": "3eab5944-32f9-4583-b3a3-be8e31ee04d4",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b7fabf0-b8c1-45c4-84a3-fa8aa6c0b0f8",
+    "data": [
+      {
+        "text": "+923082466439",
+        "alias": "person",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9865abd9-b8b5-49fa-b70a-37ff391a7c41",
+    "data": [
+      {
+        "text": "book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d28efdcc-0b0f-4712-84d3-575e7853facf",
+    "data": [
+      {
+        "text": "i want room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09df4fad-c8d8-410b-94cf-7e4229123ed5",
+    "data": [
+      {
+        "text": "I want an ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "type",
+        "meta": "@Category",
+        "userDefined": true
+      },
+      {
+        "text": " class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d098df85-7ee9-4ec8-aa4f-0864b92bd170",
+    "data": [
+      {
+        "text": "book room for ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "person",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " persons",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "387156a8-86ab-4bac-b885-4122b08a2da9",
+    "data": [
+      {
+        "text": "My contact number is ",
+        "userDefined": false
+      },
+      {
+        "text": "+92312345678",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "319d6131-5a9f-4942-83fd-4e4de24f6b97",
+    "data": [
+      {
+        "text": "My email is ",
+        "userDefined": false
+      },
+      {
+        "text": "abc@abc.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6d6ee701-56b6-4de5-8544-82e71784b7ea",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "john",
+        "alias": "name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0e149c29-1f19-4ec0-942c-066b97fe0aa5",
+    "data": [
+      {
+        "text": "I want to book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

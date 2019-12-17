@@ -1,0 +1,24 @@
+[
+  {
+    "value": "economy",
+    "synonyms": [
+      "Low cost",
+      "Regular",
+      "economy"
+    ]
+  },
+  {
+    "value": "standard",
+    "synonyms": [
+      "standard"
+    ]
+  },
+  {
+    "value": "vip",
+    "synonyms": [
+      "luxuery",
+      "special",
+      "vip"
+    ]
+  }
+]
